@@ -1,4 +1,4 @@
-baseURL = "http://xianmin.org"
+baseURL = "http://www.xianmin.org"
 languageCode = "zh-CN"
 defaultContentLanguage = "zh-CN"
 title = "贤民的比特记忆"
@@ -8,8 +8,8 @@ theme = "even"
 
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 10                                             # （可选）首页显示的文章条目数量，默认为10
-disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+disqusShortname = "xianmin12"      # disqus_shortname
+googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
 # copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # require                       # 必需
