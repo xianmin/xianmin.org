@@ -169,13 +169,11 @@ $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 {{% music "28196554" %}}
 
 
-
 ## YouTube
 
 由于不明原因可能无法播放。
 
 {{% youtube "wC5pJm8RAu4" %}}
-
 
 
 ## 参考资料

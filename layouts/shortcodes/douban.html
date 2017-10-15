@@ -1,0 +1,55 @@
+<div class="subject-wrapper">
+  <a href="https://book.douban.com/subject/{{index .Params 0}}/">
+    <div class="subject-cover"><img src=""></div>
+    <div class="subject-info">
+      <div class="subject-title"><span class="title-text"></span></div>
+      <div class="subject-rating"><span class="rating-score"></span></div>
+      <div class="subject-summary"></div>
+    </div>
+  </a>
+</div>
+
+<script>
+  var responseHandler; // 定义一个全局作用域的函数
+
+  function getJSONP(id, cb) {
+    let url = "https://api.douban.com/v2/book/" + id;
+    
+    if (url.indexOf('?') === -1) {
+      url += '?callback=responseHandler';
+    } else {
+      url += '&callback=responseHandler';
+    }
+
+    // 创建script 标签
+    var script = document.createElement('script');
+
+    // 在函数内部实现包裹函数，因为要用到cb
+    responseHandler = function(json) {
+      try {
+        cb(json)
+      } finally {
+        // 函数调用之后不管发生什么都要移除对应的标签，留着也没用
+        script.parentNode.removeChild(script);
+      }
+    }
+
+    script.setAttribute('src', url)
+    document.body.appendChild(script);
+  }
+
+ getJSONP('{{index .Params 0}}', e => {
+    let title = e.title;
+    let image = e.image;
+    let rating = "豆瓣评分：" + e.rating.average;
+    let subtitle = e.subtitle;
+    let author = e.author;
+    let publisher = e.publisher;
+    let summary = subtitle + '|' + author + '|' + publisher;
+    $('.subject-title').html(title);
+    $('.subject-cover img').attr("src", image);
+    $('.subject-rating').html(rating);
+    $('.subject-summary').html(summary);
+  });
+</script>
+
