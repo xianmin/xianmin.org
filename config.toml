@@ -40,11 +40,7 @@ googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
   weight = 40
   identifier = "categories"
   url = "/categories/"
-[[menu.main]]
-  name = "关于"
-  weight = 50
-  identifier = "about"
-  url = "/about/"
+
 
 [params]
   since = "2017"            # Site creation time          # 站点建立时间
