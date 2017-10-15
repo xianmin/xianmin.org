@@ -8,7 +8,7 @@ categories: ["essay"]
 # comment: false
 # toc: false
 # reward: false
-mathjax: false
+mathjax: true
 author: ''
 contentCopyright: ''
 ---
@@ -161,20 +161,67 @@ if (document.getElementById('my-player') !== null) {
 $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
 
+## Shortcodes
 
-## 网易云音乐
+### 网易云音乐
 
 主题文章中可以轻松插入 [网易云音乐](https://music.163.com/) 的指定音乐，你可以根据需要将音乐设置为自动播放，在主题目录 `layouts/shortcodes` 文件夹下的 `music.html` 对该标签进行定义。
 
 {{% music "28196554" %}}
 
 
-## YouTube
+### YouTube
 
 由于不明原因可能无法播放。
 
 {{% youtube "wC5pJm8RAu4" %}}
 
+### blockquote
+Normal quote:
+{{< blockquote >}}
+  This is a simple quote.
+{{< /blockquote >}}
+
+Quote with author
+{{< blockquote author="Author2" >}}
+  This is a quote with only an Author named Author2.
+{{< /blockquote >}}
+
+Quote with author and source
+{{< blockquote author="Author3" source="Source" >}}
+  This is a quote from Author3 and source "source."
+{{< /blockquote >}}
+
+Quote with author and link
+{{< blockquote author="Author4" link="https://www.google.com" >}}
+  This is a quote from Author4 and links to https://www.google.com.
+{{< /blockquote >}}
+
+Quote with author, link and title
+{{< blockquote author="Author5" link="https://www.google.com" title="Google" >}}
+  This is a quote from Author5 and links to https://www.google.com with title "Google."
+{{< /blockquote >}}
+
+Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+{{< blockquote author="Author6" link="https://twitter.com/CryptoGangsta/status/716427930126196737" >}}
+  This is a quote from Author5 and links to https://twitter.com/CryptoGangsta/status/716427930126196737 which is longer than 32 characters.
+  <br>And this is a new line in the quote with the HTML br tag.
+{{< /blockquote >}}
+
+Test from the Octopress blockquote page at: http://octopress.org/docs/plugins/blockquote/
+{{< blockquote author="@allanbranch" link="https://twitter.com/allanbranch/status/90766146063712256" >}}
+  Over the past 24 hours I've been reflecting on my life & I've realized only one thing. I need a medieval battle axe.
+{{< /blockquote >}}
+
+### Wikipedia Link Generator
+- {{< wp tag="VIC_cipher" >}}
+- {{< wp tag="VIC_cipher" lang="fr" >}}
+- {{< wp tag="VIC_cipher" lang="fr" title="" >}}
+- {{< wp tag="VIC_cipher" title="VIC Cipher" >}}
+- {{< wp tag="VIC_cipher" lang="en" title="VIC Cipher" >}}
+
+### Image Caption
+{{< imgcap title="Sample caption" src="https://raw.githubusercontent.com/olOwOlo/hugo-theme-even/master/images/showcase.png" >}}
 
 ## 参考资料
 
