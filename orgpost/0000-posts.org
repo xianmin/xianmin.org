@@ -2,10 +2,12 @@
 #+SEQ_TODO: TODO DRAFT DONE
 #+PROPERTY: header-args :eval no
 
-** JavaScript —— this 绑定
+* INBOX
+
+** DONE JavaScript —— this 绑定                           :JavaScript:@tech:
+   CLOSED: [2017-11-14 Tue 14:39]
    :PROPERTIES:
    :EXPORT_FILE_NAME: javascript-this
-   :EXPORT_DATE: 2017-11-14
    :END:
 
 Google 搜索出来的两个不错的链接：
@@ -106,4 +108,3 @@ function foo(a) {
 var bar = new foo( 2 ); // 使用 new 绑定到对象 bar
 console.log( bar.a ); // 输出 2
 #+END_SRC
-
