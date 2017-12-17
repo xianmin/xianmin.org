@@ -135,3 +135,8 @@ googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
    Name= "阅读"
    Identifier= "read"
    URL= "/categories/read/"
+
+   [[params.Categories]]
+   Name= "工具"
+   Identifier= "tool"
+   URL= "/categories/tool/"

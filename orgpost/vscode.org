@@ -1,0 +1,60 @@
+#+HUGO_BASE_DIR: ../
+#+TITLE: Visual Studio Code 使用指南
+#+DATE: 2017-12-13
+#+HUGO_AUTO_SET_LASTMOD: t
+#+HUGO_TAGS: vscode
+#+HUGO_CATEGORIES: tool
+#+HUGO_DRAFT: false
+
+
+** 简介
+ =Visual Studio Code= （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。
+
+- 官方文档： https://code.visualstudio.com/docs
+- VScode github 地址： https://github.com/Microsoft/vscode
+- [[https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks][Visual Studio Tips and Tricks]]
+
+本文旨在对 VSCode 做一个介绍，以及分享我个人的使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。
+
+** 安装
+官网下载地址： [[https://code.visualstudio.com/download][Download Visual Studio Code - Mac, Linux, Windows]]
+
+如果你和我一样使用 Deepin Linux，可以直接从 Deepin Store 进行安装。
+
+** 界面
+[[~/Write/blog/static/image/vscode/00.png]]
+
+** 特色（或者说和我们平时的操作方式不同的地方）
+
+*** 标签预览模式
+
+[[/image/vscode/01.gif]]
+
+VSCode 中的标签和我们平常使用的软件中的标签不太一样，我开始的时候很疑惑，为什么 VSCode 打开新文件不是在新标签中打开，后来才知道是因为它默认开启了“预览模式”（Preview mode）。预览模式中的“标签名字体”显示的是 *斜体* ， *单击文件* 不会开启新的标签， *双击文件* 或者 *双击标签* 就可以将文件固定了。
+
+在设置中可以取消预览模式： =workbench.editor.enablePreview= 。 
+
+*** 命令面板
+
+快捷键 =Ctrl+Shift+P= 呼出命令面板，通过命令面板可以快速使用一些指令。
+
+[[/image/vscode/02.gif]]
+
+** 编辑相关技巧
+
+*** 快捷键
+
+*** Multi cursor selection
+
+** 设置
+
+*** .vscode 文件夹
+
+** 扩展
+
+** DEBUG
+
+** GIT 集成
+
+
+
