@@ -28,7 +28,7 @@
 
 *** 标签预览模式
 
-[[/image/vscode/01.gif]]
+[[~/Write/blog/static/image/vscode/01.gif]]
 
 VSCode 中的标签和我们平常使用的软件中的标签不太一样，我开始的时候很疑惑，为什么 VSCode 打开新文件不是在新标签中打开，后来才知道是因为它默认开启了“预览模式”（Preview mode）。预览模式中的“标签名字体”显示的是 *斜体* ， *单击文件* 不会开启新的标签， *双击文件* 或者 *双击标签* 就可以将文件固定了。
 
@@ -38,23 +38,51 @@ VSCode 中的标签和我们平常使用的软件中的标签不太一样，我�
 
 快捷键 =Ctrl+Shift+P= 呼出命令面板，通过命令面板可以快速使用一些指令。
 
-[[/image/vscode/02.gif]]
+[[~/Write/blog/static/image/vscode/02.gif]]
 
 ** 编辑相关技巧
 
 *** 快捷键
+官方文档： [[https://code.visualstudio.com/docs/getstarted/keybindings][Visual Studio Code Key Bindings]]
 
-*** Multi cursor selection
+熟练使用快捷键可以极大的提高效率，但是不同编辑器的快捷键一般都不一样，为了减少迁移后改变习惯的代价，可以通过安装扩展解决这个问题。比如我要将 VSCode 的快捷键设定改为 Emacs 的设定，安装下面这个扩展就行了。
+
+[[https://marketplace.visualstudio.com/items?itemName=lfs.vscode-emacs-friendly][Emacs Friendly Keymap - Visual Studio Marketplace]] （ *官方推荐的那个没有再维护了* ）
+
+由于 =Ctrl= 是一个经常需要用到的按键，不妨将 =Ctrl= 和 =CapsLock= 这两个键调换。调换之后再按 =Ctrl= 就舒服的多。 
+
+*** 多光标编辑 Multi cursor selection
+
+- =Alt+Click= 可以依次添加光标。
+- =Shift+Alt+Down= 或者 =Shift+Alt+Up= 可以在上下位置添加光标。
+
+[[file:~/Write/blog/static/image/vscode/multicursor.gif]]
+
+*** 多重选择
+
+*** 矩形选择
+
+*** 括号选择
+
+** Zen Mode
 
 ** 设置
+官方文档： [[https://code.visualstudio.com/docs/getstarted/settings][Visual Studio Code User and Workspace Settings]]
 
-*** .vscode 文件夹
+vscode 的设置分三个级别：
+
+- 默认设置（安装完成后）
+- 用户设置（用户自行修改的设定）
+- 工作区设置（团队项目下的统一设定）
+
+优先级依次递增。
+
+对于团队项目，一些规范可以通过项目目录下新建一个 =.vscode/setting.json= 文件进行配置。
+
 
 ** 扩展
 
 ** DEBUG
 
 ** GIT 集成
-
-
 

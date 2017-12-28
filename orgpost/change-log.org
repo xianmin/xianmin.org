@@ -1,0 +1,8 @@
+
+
+
+* [2017-12-18 Mon]
+因对 hugo 下的各种主题样式不满意（主要是中文阅读体验不好），基于 even 这个主题，自己动手修改，建立了一个新的主题项目 【简帖】[[https://github.com/xianmin/hugo-theme-jane][xianmin/hugo-theme-jane]] 。主要目标： 对读者阅读体验进行优化。
+
+* 0
+网站最初使用 hugo-theme-even 这个主题搭建。
