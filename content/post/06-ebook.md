@@ -6,7 +6,7 @@ lastmod: 2017-11-06T13:13:15+08:00
 keywords: []
 description: ""
 tags: ["ebook", "tool"]
-categories: ["essay"]
+categories: ["杂文"]
 # author: ""
 # comment: false
 # toc: false

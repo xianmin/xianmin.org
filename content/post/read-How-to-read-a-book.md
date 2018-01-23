@@ -6,7 +6,7 @@ lastmod: 2017-05-05T10:04:20+08:00
 keywords: []
 description: ""
 tags: ["note"]
-categories: ["read"]
+categories: ["阅读"]
 # author: ""
 # comment: false
 # toc: false

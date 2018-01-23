@@ -1,9 +1,9 @@
 +++
 title = "JavaScript —— this 绑定"
 date = 2017-11-14T14:39:00+08:00
-lastmod = 2017-11-14T15:06:14+08:00
+lastmod = 2018-01-14T22:07:24+08:00
 tags = ["JavaScript"]
-categories = ["tech"]
+categories = ["计算机"]
 draft = false
 +++
 

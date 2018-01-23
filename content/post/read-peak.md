@@ -6,7 +6,7 @@ lastmod: 2017-10-26T14:03:06+08:00
 keywords: ["刻意练习"]
 description: ""
 tags: ["练习"]
-categories: ["read"]
+categories: ["阅读"]
 # author: ""
 # comment: false
 # toc: false

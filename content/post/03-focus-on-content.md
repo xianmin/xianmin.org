@@ -6,7 +6,7 @@ draft: false
 keywords: []
 description: ""
 tags: []
-categories: ["essay"]
+categories: ["杂文"]
 # author: ""
 # comment: false
 toc: false

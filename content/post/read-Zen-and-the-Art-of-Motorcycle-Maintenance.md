@@ -6,7 +6,7 @@ draft: false
 keywords: []
 description: ""
 tags: ["禅", "note"]
-categories: ["read"]
+categories: ["阅读"]
 # author: ""
 # comment: false
 # toc: false

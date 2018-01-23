@@ -4,7 +4,7 @@ date: 2017-01-01T18:03:09+08:00
 lastmod: 2017-01-01T18:03:09+08:00
 draft: false
 tags: ["markdown"]
-categories: ["essay"]
+categories: ["杂文"]
 # comment: false
 # toc: false
 # reward: false

@@ -4,7 +4,7 @@ date: 2017-03-01T18:03:09+08:00
 lastmod: 2017-03-01T18:03:09+08:00
 draft: false
 tags: ["linux", "git", "dotfile", "tool"]
-categories: ["essay"]
+categories: ["计算机"]
 
 # comment: false
 # toc: false
