@@ -1,0 +1,154 @@
++++
+title = "一些 Visual Studio Code 的使用技巧"
+date = 2018-01-10
+lastmod = 2018-01-14T22:13:43+08:00
+tags = ["vscode", "tips", "editor", "tool"]
+categories = ["计算机"]
+draft = false
++++
+
+## 简介 {#简介}
+
+`Visual Studio Code` （以下简称 VSCode）是微软推出的一款轻量级、免费开源、跨平台的编辑器。
+
+-   官方文档： <https://code.visualstudio.com/docs>
+-   VScode github 地址： <https://github.com/Microsoft/vscode>
+-   [Visual Studio Tips and Tricks](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_editing-hacks)
+
+本文旨在分享我个人的 VSCode 使用经验，更权威的使用指南请查阅官方文档。关于 VSCode 的优缺点，与其他编辑器的比较等等，不在本文的讨论范畴。
+
+<!--more-->
+
+
+## 安装 {#安装}
+
+官网下载地址： [Download Visual Studio Code - Mac, Linux, Windows](https://code.visualstudio.com/download)
+
+如果你和我一样使用 Deepin Linux，可以直接从 Deepin Store 进行安装。
+
+
+## 界面 {#界面}
+
+{{<figure src="/image/vscode/00.png">}}
+
+
+## 特色（与常见编辑器不同的地方） {#特色-与常见编辑器不同的地方}
+
+
+### 标签预览模式 {#标签预览模式}
+
+{{<figure src="/image/vscode/01.gif">}}
+
+VSCode 中的标签和我们平常使用的软件中的标签不太一样，我开始的时候很疑惑，为什么 VSCode 打开新文件不是在新标签中打开，后来才知道是因为它默认开启了“预览模式”（Preview mode）。预览模式中的“标签名字体”显示的是 **斜体** ， **单击文件** 不会开启新的标签， **双击文件** 或者 **双击标签** 就可以将文件固定了。
+
+在设置中可以取消预览模式： `workbench.editor.enablePreview` 。
+
+
+### 命令面板 {#命令面板}
+
+快捷键 `Ctrl+Shift+P` 呼出命令面板，通过命令面板可以快速使用一些指令。
+
+{{<figure src="/image/vscode/02.gif">}}
+
+
+### Peek Definition {#peek-definition}
+
+这个功能，可以快速预览函数（或类）的定义内容，右键菜单中有选项，或者用快捷键 `Ctrl+shift+F10` 。
+
+{{<figure src="/image/vscode/references.png">}}
+
+
+## 编辑相关技巧 {#编辑相关技巧}
+
+
+### 快捷键 {#快捷键}
+
+官方文档： [Visual Studio Code Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+
+熟练使用快捷键可以极大的提高效率，但是不同编辑器的快捷键一般都不一样，为了减少迁移后改变习惯的代价，可以通过安装扩展解决这个问题。比如我要将 VSCode 的快捷键设定改为 Emacs 的设定，安装下面这个扩展就行了。
+
+[Emacs Friendly Keymap - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=lfs.vscode-emacs-friendly) （ **官方推荐的那个没有再维护了** ）
+
+由于 `Ctrl` 是一个经常需要用到的按键，不妨将 `Ctrl` 和 `CapsLock` 这两个键调换。调换之后再按 `Ctrl` 就舒服快捷的多。
+
+
+### 多光标编辑 Multi cursor selection {#多光标编辑-multi-cursor-selection}
+
+-   **基本：** `Alt+Click` 即，按住 Alt 键，依次单击（或者选择）需要编辑的位置，可以依次添加光标。 Alt 键可以在设置中更改。
+-   **一列多光标：** `Shift+Alt+Down` 或者 `Shift+Alt+Up` 可以在上下位置添加光标。
+-   **依次选中相同单词：** 选中一个单词，按 `Ctrl+D` ，可以依次选中下一个相同单词。
+-   **选中所有相同单词：** 选中一个单词，按 `Ctrl+Shift+L` ，可以一次性选中文本中 **所有相同单词** 。
+-   **矩形选择：** 按住 `Shift+Alt` ，再进行选择，则选择区域是一个矩形。
+-   **括号选择：** `Shift+Alt+Right` ，会选中匹配括号中的内容，并可以扩大选中区域。
+
+{{<figure src="/image/vscode/multicursor.gif">}}
+
+{{<figure src="/image/vscode/column-select.gif">}}
+
+
+### 辅助线 {#辅助线}
+
+1.  显示代码缩进的辅助线，设置 "editor.renderIndentGuides": true
+2.  代码长度标尺，比如在第80列的地方显示标尺，设置 "editor.rulers": [80]
+
+
+## zenmode——让编辑界面更简洁 {#zenmode-让编辑界面更简洁}
+
+如果你像我一样，有时候需要一边开着浏览器（或者终端等等）一边编辑文件，那么使用 `zenmode` 模式，则可以使 VSCode 的界面更加简洁。
+
+{{<figure src="/image/vscode/03.png">}}
+
+小技巧：
+
+1.  设置 "zenMode.fullScreen": false ，默认为全屏。
+2.  设置 "window.menuBarVisibility": "toggle" ，这样可以在需要的时候显示目录栏。
+
+
+## 设置的级别 {#设置的级别}
+
+官方文档： [Visual Studio Code User and Workspace Settings](https://code.visualstudio.com/docs/getstarted/settings)
+
+vscode 的设置分三个级别：
+
+-   默认设置（安装完成后）
+-   用户设置（用户自行修改的设定）
+-   工作区设置（团队项目下的统一设定）
+
+优先级依次递增。即，优先采用工作区的设置，再采用用户的个人设置，最后采用默认设置。
+
+对于团队项目，一些规范设置可以通过在项目目录下新建一个 `.vscode/setting.json` 文件进行配置。
+
+
+## 一些不错的扩展 {#一些不错的扩展}
+
+
+### 官方推荐 {#官方推荐}
+
+-   [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
+-   [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+-   [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+-   等等支持各种程序语言的扩展
+
+
+### Bookmarks {#bookmarks}
+
+地址： [Bookmarks - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+
+为 VSCode 添加书签功能，方便跳转。
+
+
+### Git History {#git-history}
+
+地址： [Git History (git log) - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+
+非常方便的查看 Git Log，也算是必装的一个扩展了。
+
+
+### Path Intellisense {#path-intellisense}
+
+地址： [Path Intellisense - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+自动补全路径以及文件名。
+
+
+## <span class="todo TODO_">TODO </span> DEBUG {#debug}

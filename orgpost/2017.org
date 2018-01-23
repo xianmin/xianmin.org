@@ -3,7 +3,7 @@
 #+DATE: 2017-12-30
 #+HUGO_AUTO_SET_LASTMOD: t
 #+HUGO_TAGS: 总结 阅读
-#+HUGO_CATEGORIES: essay
+#+HUGO_CATEGORIES: 杂文
 #+HUGO_DRAFT: false
 
 

@@ -1,3 +1,10 @@
+
+
+* Awesome Checklist Checklist
+
+[[https://github.com/huyingjie/Checklist-Checklist][huyingjie/Checklist-Checklist: 🌈 A Curated List of Checklists ✔︎✔︎]]
+
+
 * [2017-12-16 Sat]
 
 海德格尔说，我们来到这个世界并非自己选择，而是被抛到这个世界上来，并且始终在这个世界之中。既然在其中，就免不了与形形色色的人、事、物打交道。那种不停拖延的状态，类似于非本真状态。在这种状态里面，我们忘记了自己，而把自己消融在有趣的段子、搞笑的视频、美食食谱、同事朋友的八卦等等事物之中。这种状态虽然无聊，但是却很安全，是我们生活的舒适区。但如果能舒服一辈子也倒罢了，我们经常还焦虑于自己浪费时间的行动，不停在“紧张地玩手机”。
