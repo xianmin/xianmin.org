@@ -1,5 +1,4 @@
 baseURL = "http://www.xianmin.org"
-languageCode = "zh-CN"
 defaultContentLanguage = "zh-CN"
 title = "贤民的比特记忆"
 enableRobotsTXT = true
@@ -121,22 +120,6 @@ googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
 #  taxonomy = ["HTML", "RSS"]
 #  taxonomyTerm = ["HTML"]
 
-   [[params.Categories]]
-   Name= "随笔"
-   Identifier= "essay"
-   URL= "/categories/essay/"
-
-   [[params.Categories]]
-   Name= "技术"
-   Identifier= "tech"
-   URL= "/categories/tech/"
-
-   [[params.Categories]]
-   Name= "阅读"
-   Identifier= "read"
-   URL= "/categories/read/"
-
-   [[params.Categories]]
-   Name= "工具"
-   Identifier= "tool"
-   URL= "/categories/tool/"
+# Configure the English version of the website.
+[Languages.zh-CN]
+  languageCode = "zh-CN"
