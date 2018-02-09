@@ -39,7 +39,11 @@ googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
   weight = 40
   identifier = "categories"
   url = "/categories/"
-
+[[menu.main]]
+  name = "English"
+  weight = 100
+  identifier = "English"
+  url = "http://en.xianmin.org"
 
 [params]
   since = "2017"            # Site creation time          # 站点建立时间
@@ -63,7 +67,7 @@ googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
   toc = true                                                                            # 是否开启目录
   fancybox = true           # see https://github.com/fancyapps/fancybox                 # 是否启用fancybox（图片可点击）
   bootcdn = false           # In china. @Deprecated: use [params.publicCDN]             # 是否使用bootcdn(@Deprecated: 请使用[params.publicCDN])
-  mathjax = true            # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
+  mathjax = false            # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
   linkToMarkDown = false    # if you config contentCopyright and hugo output .md files. # 是否在链接到markdown原始文件（如果你配置了下面的许可协议并允许hugo生成markdown文件）
 
   contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
