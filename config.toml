@@ -1,5 +1,5 @@
 baseURL = "http://www.xianmin.org"
-defaultContentLanguage = "zh-CN"
+defaultContentLanguage = "zh-cn"
 title = "贤民的比特记忆"
 enableRobotsTXT = true
 enableEmoji = true
@@ -9,6 +9,7 @@ hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否�
 paginate = 10                                             # （可选）首页显示的文章条目数量，默认为10
 disqusShortname = "xianmin12"      # disqus_shortname
 googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
+rssLimit = 20
 # copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # require                       # 必需
@@ -50,17 +51,18 @@ googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
 
   # site info (option)                                    # 站点信息（可选）
   logoTitle = "贤民的比特记忆"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = []
-  description = ""
+  keywords = ["linux", "emacs", "program", "journal", "贤民", "博客", "笔记"]
+  description = "这里是我写字的地方"
+  rssFullContent = true
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目
-  archive-paginate = 20
+  archive-paginate = 1000
   
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006年01月02日"
+  dateFormatToUse = "2006-01-02"
 
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
-  moreMeta = true
+  moreMeta = false
 
   # 一些全局开关，你可以在每一篇内容的 front matter 中单独关闭某些选项
   # Some global options, you can close something in front matter.
@@ -125,5 +127,5 @@ googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
 #  taxonomyTerm = ["HTML"]
 
 # Configure the English version of the website.
-[Languages.zh-CN]
-  languageCode = "zh-CN"
+[Languages.zh-cn]
+  languageCode = "zh-cn"
