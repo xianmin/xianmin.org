@@ -2,43 +2,6 @@
 #+SEQ_TODO: TODO DRAFT DONE
 #+PROPERTY: header-args :eval no
 
-
-* 被遗弃的草稿
-
-** TODO 在老家过年的一些感想
-这个春节，我在老家过年，一方面和家人团聚，一方面给爷爷贺寿（我是长孙，这是我回家的主要原因）。我早早就结束了工作，早早回到了老家，在老家待了两周。一年到头，也就这两周跟家人在一起，和那么多的亲戚见面。尽管说我也曾在老家过了好几次年，但这些年在不同的地方过年有了不一样的经历，才发觉在老家过年有多么的不一样。有一些想法，不妨记录一下。
-
-
-*** 传统秩序
-我老家在福建的一个山村，也许是因为这个地方穷山恶水，至今还保留着不少传统习俗。比如，过年要祭灶、祭祖、祭天，要烧香拜佛、放鞭炮等等。
-
-这些传统习俗，按照当代主流的观念，很多是要摒弃的。迷信，劳民伤财，污染环境。但我想谈谈它的正面意义，首要一点，就是汇聚家族宗亲的 *凝聚力* 。习俗只是象征意义上的一种仪式，基本上受过现代化熏陶的人都知道，那些是迷信，但为什么还那么做呢？这样的仪式，可以把大伙儿聚在一起。聚在一起做什么？交流交流近况，看看谁挣了钱了，有没有好的机会。现在的村里人，基本都在外地城市里，可能还在不同地方，难得过年回到家乡一聚。回家乡，就是因为这些传统还在。
-
-村里有不少长辈在上世纪八九十年代就前往长江中下游一带的富饶地区经商，诞生了不少民营企业家。最初，他们都是拉上几个乡亲一起出去打拼。由于语言不通，福建人说话又带着浓厚的口音，在异乡生活着实不易。但因为传统的存在，又祭拜同一个祖先，他们非常的团结。比如，做生意需要拿货，拿货需要人脉和本钱，同乡人通常都会扶持同乡人一把，借给他一批货，卖完了再给钱，很多人当时就是这样挣到第一桶金的。除此之外，遇到困难会相互帮忙，挣到钱的人会把还在老家的人带出来一起挣钱。在我看来，这都是“传统的功劳”。
-
-
-*** 传统的变化
-近二十年，家乡发生了翻天覆地的变化（当然，整个中国都在巨变）。几百年了，一个平静的农村，原本都是土木结构的房子，现在竖起了一座座洋楼、水泥房。以前都要坐船过河的那个口岸修了一座桥，高铁高速也通了，水泥路直接修到了家门口。毫无疑问，大家的生活条件变好了。经济上的变化，也随之影响着传统的变化。
-
-
-1. 对金钱的敬畏
-2. 家庭观念的转变
-3. 我们这一代人，对传统习俗已经不了解
-
-*** 对金钱的敬畏
-以前大家都没什么文化，读书人受尊敬，谁考取了功名就是整个家族的荣耀，村民们对知识多少还有些敬畏。现在不一样了，大家都念过书了，学历再高也没用，钱说了算，谁有钱谁就受尊敬。
-
-
-*** 谁来干活？
-帮爷爷干活儿，折纸钱，搞迷信用的。这个习俗我不了解存在了多久了，应该有很多年了，但是到了我父亲那一辈，基本都不会了。折纸钱是一件很乏味的事儿，数十张，对折，最后还要用不同的纸卷成一捆。我本意是不想做的，迷信，污染环境，有什么好做的呢？可毕竟帮爷爷干活儿，家里还是爷爷说了算，不好拒绝，坐下来慢慢折吧。心里想着正念，也许这是锻炼正念的机缘呢？后来还好，另外两个亲戚过来帮忙，两个小时也就完成了。否则还不知道要弄多久。
-
-
-*** 关于亲戚
-
-*** 如何改变
-
-现如今，越来越多的人一到春节就出门旅游了，这可以通过旅游部门统计的每年春节期间不断增长的游客数量看出来。据我观察，这些游客绝大部分是现代化城市居民，他们的老家也许已经城市化了，也许老家的亲戚很久都没再联系了，在小区楼里过年也没多少年味，这么长的假期出门游玩岂不是更好？
-
 * INBOX
 
 ** DONE JavaScript —— this 绑定                           :JavaScript:@计算机:
@@ -147,32 +110,6 @@ console.log( bar.a ); // 输出 2
 #+END_SRC
 
 
-** TODO 博客写作流程之工具篇： emacs, orgmode & hugo               :@计算机:
-:PROPERTIES:
-:EXPORT_FILE_NAME: 00-emacs-orgmode-and-hugo-write-blog-flow
-:END:
-
-本文将对我个人的博文写作流程 *所用到的工具* 做一个总结与分享。从标题就可以看出来，主要有这几个工具： emacs, orgmode & hugo 。
-
-如果没记错的话，我最早接触博客是在 2010 年从新浪博客开始的，后面几年辗转过好几个平台，但实际上没有写多少内容，那些有限的内容删的删、忘的忘，就好像没存在过一样。有时候，我自己也是很矛盾的人，有话想说，却又觉得没多少价值，有点儿担心自己是不是在制造信息垃圾呢？有时候，又有点儿虚荣心，希望自己写的东西，被人看见。可一旦那股热乎劲儿过去了，就不了了之了。但过了一段时间，又憋的难受，总想说点什么。
-
-这几年，看着一个个平台的流行到衰微，看着有些人被封杀，或者不再发表内容，看着一个个独立博客关闭，或者转移到微信公众号，至于这背后真正发生了什么，我不了解。也许这个世界越来越急功近利了，越来越趋于娱乐化了？
-
-我只是知道，我有话要说，有内容想分享，仅此而已。作为一个不是专业程序员，却又喜欢折腾代码的人，搭建一个属于自己的平台，只是小事一桩。这或许是对独立与自由的追求吧。
-
-做点有趣、有料的事儿。
-这几年，自己在做事、以及对待生活的心态上有了些许变化，也许是成熟了些吧。有些东西也不太在乎了
-
-
-*** 博客生成工具： hugo
-
-*** 博文写作工具： emacs + orgmode
-
-*** 博文发布
-
-
-** TODO 现代 JavaScript 开发流程简介
-
 ** DONE 维特根斯坦的《战时笔记》           :@阅读:note:维特根斯坦:哲学:思考:
    CLOSED: [2018-02-09 Fri 21:53]
    :PROPERTIES:
@@ -218,90 +155,114 @@ console.log( bar.a ); // 输出 2
 
 [fn:2] [[https://github.com/xianmin/hugo-theme-jane/issues/1][Issue #1 · xianmin/hugo-theme-jane]]
 
-* DONE 笔记：有关开源项目                                 :@计算机:开源:笔记:
-  CLOSED: [2018-03-27 Tue 15:47]
-  :PROPERTIES:
-  :EXPORT_FILE_NAME: note-opensource-project
-  :END:
 
-以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。
+** DONE 笔记：有关开源项目                                :@计算机:开源:笔记:
+   CLOSED: [2018-03-27 Tue 15:47]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: note-opensource-project
+   :END:
+
+ 以下内容是关于怎样参与到开源项目中的一些笔记，基本上摘自网络。
 
 
-** 参考链接
- - [[https://www.phodal.com/blog/how-to-build-a-opensource-project/][开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer]]
- - [[https://juejin.im/post/59f98a196fb9a045132a03ed][零起点的开源社区贡献指南 - 掘金]]
- - [[http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html][Commit message 和 Change log 编写指南 - 阮一峰的网络日志]]
- - [[https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow][git-flow 的工作流程]]
+*** 参考链接
+  - [[https://www.phodal.com/blog/how-to-build-a-opensource-project/][开源之美：开源软件开发流程 - Phodal | Phodal - A Growth Engineer]]
+  - [[https://juejin.im/post/59f98a196fb9a045132a03ed][零起点的开源社区贡献指南 - 掘金]]
+  - [[http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html][Commit message 和 Change log 编写指南 - 阮一峰的网络日志]]
+  - [[https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow][git-flow 的工作流程]]
  
+ <!--more-->
+
+*** 加入开源项目可以做的事儿
+ - 入门：翻译文档、报告 BUG
+ - 提 Issue
+   - 报告 Bug 与提问
+   - 提出并讨论新特性
+   - 设定 Todo 目标
+ - 提 Pull Request
+   - 修复 bug
+   - 实现新特性
+   - 优化性能
+   - 例行更新（如文档、依赖版本等）
+
+*** 常用英文表达方式
+
+ *吐槽代码：*
+ - 表达 API 笨重不好用，可以说 =heavy to work with=
+ - 表达模块结构不好，可以说 =not intuitive=
+ - 表达处理方式太粗暴，可以说 =overkill=
+ - 表达逻辑可能有漏洞，可以说 =leaky=
+ - 表达要引入的东西太多，可以说 =aggressive=
+
+ *表达观点：*
+ - =I think= 有点儿武断
+ - 可以用 =In my (humble) opinion=
+ - 补充一个 =Not sure, maybe missing something=
+ - 用 =To my knowledge= 或者 =For me=
+
+*** commit 格式规范
+ #+BEGIN_SRC 
+ <type>(<scope>): <subject>
+ // 空一行
+ <body>
+ // 空一行
+ <footer>
+ #+END_SRC
+
+ *第一部分为 HEADER ：*
+
+ - =<type>= 说明 commit 的类别：
+   - feat：新功能（feature）
+   - fix：修补bug
+   - docs：文档（documentation）
+   - style： 格式（不影响代码运行的变动）
+   - refactor：重构（即不是新增功能，也不是修改bug的代码变动）
+   - test：增加测试
+   - chore：构建过程或辅助工具的变动
+ - =<scope>= 说明 commit 影响的范围
+ - =<subject>= 是 commit 目的的简短描述，可加入 Issue 的编号如 =#11=
+
+ *第二部分为 Body ：*
+ Body 部分是对本次 commit 的详细描述，可以分成多行。下面是一个范例。
+
+ *最后部分为 Footer：*
+ 1. 不兼容变动。以 =BREAKING CHANGE= 开头，后面是对变动的描述、以及变动理由和迁移方法。
+ 2. 关闭 Issue。如， =Closes #123, #245, #992= ，一次性关闭多个 issue。
+
+ *特殊情况 Revert ：*
+
+ 如果当前 commit 用于撤销以前的 commit，则必须以 =revert:= 开头，后面跟着被撤销 Commit 的 Header。
+
+*** 生成 CHANGE LOG
+ [[https://github.com/conventional-changelog/conventional-changelog][conventional-changelog/conventional-changelog: Generate a changelog from git metadata.]]
+
+ 按照规范编写 commit 最大的好处就是自动化生成 Change Log 。
+
+
+*** git-flow 工作流程
+ [[https://github.com/petervanderdoes/gitflow-avh][petervanderdoes/gitflow-avh: AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen's branching model]]
+
+
+** TODO 现代 JavaScript 开发流程简介
+
+
+
+** DONE 糟糕的项目管理新手                                           :@随笔:git:
+   CLOSED: [2018-04-03 Tue 15:40]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: I-am-a-bad-project-manager
+   :END:
+
+最近， =hugo-theme-jane= 收到了几位朋友的 PR ，我作为这个项目的管理者，在处理 PR 上遇到了问题：有个别 PR 比较简单，我就直接在 github 后台操作合并，然后 =git pull= 到本地。我想的是本地 master 直接从远程仓库抓取到最新版，但奇怪的是居然有一个合并请求，并且多了一个合并的 commit 。
+
 <!--more-->
 
-** 加入开源项目可以做的事儿
-- 入门：翻译文档、报告 BUG
-- 提 Issue
-  - 报告 Bug 与提问
-  - 提出并讨论新特性
-  - 设定 Todo 目标
-- 提 Pull Request
-  - 修复 bug
-  - 实现新特性
-  - 优化性能
-  - 例行更新（如文档、依赖版本等）
+如图：
 
-** 常用英文表达方式
+[[~/Dropbox/Write/blog/static/image/other/bad-project-manager-00.png]]
 
-*吐槽代码：*
-- 表达 API 笨重不好用，可以说 =heavy to work with=
-- 表达模块结构不好，可以说 =not intuitive=
-- 表达处理方式太粗暴，可以说 =overkill=
-- 表达逻辑可能有漏洞，可以说 =leaky=
-- 表达要引入的东西太多，可以说 =aggressive=
+[[~/Dropbox/Write/blog/static/image/other/bad-project-manager-01.png]]
 
-*表达观点：*
-- =I think= 有点儿武断
-- 可以用 =In my (humble) opinion=
-- 补充一个 =Not sure, maybe missing something=
-- 用 =To my knowledge= 或者 =For me=
+本地的 master 和远程的 master 不一样了，当时也不知道为什么会这样，我只是想把两个仓库进行同步啊。算了，先更新再说吧，于是就把（没搞清楚为什么）多了一次合并 commit 的本地 master 提交到了 origin/master 。尽管说最终的代码没什么问题，但这个 commit 历史总觉得有些别扭，完全不是自己预想的那样。
 
-** commit 格式规范
-#+BEGIN_SRC 
-<type>(<scope>): <subject>
-// 空一行
-<body>
-// 空一行
-<footer>
-#+END_SRC
-
-*第一部分为 HEADER ：*
-
-- =<type>= 说明 commit 的类别：
-  - feat：新功能（feature）
-  - fix：修补bug
-  - docs：文档（documentation）
-  - style： 格式（不影响代码运行的变动）
-  - refactor：重构（即不是新增功能，也不是修改bug的代码变动）
-  - test：增加测试
-  - chore：构建过程或辅助工具的变动
-- =<scope>= 说明 commit 影响的范围
-- =<subject>= 是 commit 目的的简短描述，可加入 Issue 的编号如 =#11=
-
-*第二部分为 Body ：*
-Body 部分是对本次 commit 的详细描述，可以分成多行。下面是一个范例。
-
-*最后部分为 Footer：*
-1. 不兼容变动。以 =BREAKING CHANGE= 开头，后面是对变动的描述、以及变动理由和迁移方法。
-2. 关闭 Issue。如， =Closes #123, #245, #992= ，一次性关闭多个 issue。
-
-*特殊情况 Revert ：*
-
-如果当前 commit 用于撤销以前的 commit，则必须以 =revert:= 开头，后面跟着被撤销 Commit 的 Header。
-
-** 生成 CHANGE LOG
-[[https://github.com/conventional-changelog/conventional-changelog][conventional-changelog/conventional-changelog: Generate a changelog from git metadata.]]
-
-按照规范编写 commit 最大的好处就是自动化生成 Change Log 。
-
-
-** git-flow 工作流程
-[[https://github.com/petervanderdoes/gitflow-avh][petervanderdoes/gitflow-avh: AVH Edition of the git extensions to provide high-level repository operations for Vincent Driessen's branching model]]
-
-
+直到看到了这篇文章： [[https://longair.net/blog/2009/04/16/git-fetch-and-merge/][git: fetch and merge, don’t pull | Mark's Blog]] 。我才意识到自己犯的错误在哪里……我对 git 的分支、以及合并的概念只是理解了一些皮毛，要好好补课了。

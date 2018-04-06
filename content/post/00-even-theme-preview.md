@@ -223,6 +223,9 @@ Test from the Octopress blockquote page at: http://octopress.org/docs/plugins/bl
 ### Image Caption
 {{< imgcap title="Sample caption" src="https://raw.githubusercontent.com/olOwOlo/hugo-theme-even/master/images/showcase.png" >}}
 
+### Youku Video
+{{< youku "XMzQ0MDQwMzM5Mg==" >}}
+
 ## 参考资料
 
 1. <a id="ref01">[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)</a>
