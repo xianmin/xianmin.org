@@ -12,6 +12,12 @@ googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
 rssLimit = 20
 # copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
+# Highlight options. See https://gohugo.io/content-management/syntax-highlighting/
+pygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
+pygmentsUseClasses = true # Use CSS classes to format highlighted code
+pygmentsCodefencesGuessSyntax = true
+pygmentsOptions = "linenos=table"
+
 [author]                  # require                       # 必需
   name = "贤民"
 
