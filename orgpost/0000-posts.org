@@ -326,3 +326,74 @@ console.log( bar.a ); // 输出 2
 她术后恢复的很好，第三天可以喝点粥，第四天可以吃些鱼汤之类的食物，第六天就出院了。这些天我都陪伴在她的身边，看着她的身体一天天的好转，从需要我搀扶着起身，到自己能够独立下床。她出院后，我继续陪伴了三天，然后返回丽江。
 
 
+
+** DONE 正念日                                             :@随笔:正念:修行:
+   CLOSED: [2018-05-20 Sun 20:31]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: Days-of-Mindfulness
+   :END:
+
+今天是正念日。早上7点的闹钟响起，起床，洗漱，煮上一锅粥，站桩半个小时，吃早饭。吃完早饭，开始收拾房间。随意乱放的衣物整理到衣柜，把脏了的衣物洗净晾晒。没用的纸盒垃圾一并丢弃。最后，用抹布把整个房间擦一遍。有的时候状态不佳、杂念丛生，打扫的过程中会感有些许烦躁，但完成整个过程，看到自己收拾整齐的房间，至少会有小小的成就感。这是我个人的修行。
+
+<!--more-->
+
+每周的周日是我的正念日。这是从《正念的奇迹》中得到的启发[fn:1]，每个星期选择一天用来修习正念。在这一天，我除了提醒自己要保持正念，还会刻意做一些平时不得不做，却又“不想做的、没意思的事儿”，比如，收拾房间、打扫卫生、洗衣服、给植物浇水等等。如果不刻意去做，也许我会一直拖着，拖很久，直到自己都忍受不了了，才会想到收拾，而这个拖延的过程实在让我感到焦虑。
+
+这是一个不错的修行方式，同时也是很好的休息方式。不必着急，按照自己的节奏，把事情一样样处理好。尽管说，做事的方式理应如此，奈何每个人各有各的差异，天资秉性不同，有的人从小就培养了好习惯，直接可以进行下一步的修行。而像我这样从小就有不良习惯的，只能慢慢的刻意去改变。这又不仅仅只是习惯的问题，好的习惯只是修行的方法、工具，所追求的是要时刻保持正念。
+
+前几天看到一篇报道[fn:2]，“冥想是否真的有作用？”（冥想与正念，尽管是两个不同的词，在我看来，所要达到的其中一个目的是相类似的，都是要个体专注于此时此刻）。尽管科学研究上没有明确的结论，表明它的作用，但它确实是个“好东西”。你只有自己试了才知道，并且尝试的方法非常简单。从我个人的经验而言，类似的修行方式，的确缓解了我的焦虑症、抑郁症。
+
+[fn:1] [[https://book.douban.com/subject/4726852/][正念的奇迹 (豆瓣)]]
+[fn:2] [[https://www.solidot.org/story?sid=56538][Solidot | 冥想是否真的有作用]]
+** DONE linux 的文件管理器、命令行下，用 emacs 快速打开文件的方法 :@计算机:emacs:linux:tip:
+   CLOSED: [2018-05-22 Tue 21:28]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: linux-emacs-quick-open-file
+   :END:
+
+首先要确认 emacs 已经启动，并且开启了 server [fn:1] 。如果使用 spacemacs ，server 默认是开启的。这样就可以使用 =emacsclient= 命令快速打开文件了。
+
+<!--more-->
+
+[fn:1] [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html][Emacs Server - GNU Emacs Manual]]
+
+*** 命令行下使用 emacsclient
+直接添加一条 alias ：
+
+#+BEGIN_SRC bash
+alias ec="emacsclient -nq"
+#+END_SRC
+
+参数 =nq= 的含义是：
+
+#+BEGIN_SRC
+-n, --no-wait		Don't wait for the server to return
+-q, --quiet		Don't display messages on success
+#+END_SRC
+
+以后在命令行中用 emacs 打开文件，只需要敲击 =ec 文件名= 即可。
+
+*** 在文件管理器下，右键菜单打开文件
+我的方法是：
+
+在 =~/.local/share/applications/= 目录下，添加一个 =emacs.desktop= 文件。编辑这个 =desktop= 文件：
+
+#+BEGIN_SRC 
+[Desktop Entry]
+Version=1.0
+Name=Edit with Emacs
+GenericName=Text Editor
+MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
+Exec=/usr/bin/emacsclient -nq %F
+Icon=emacs25
+Type=Application
+Terminal=false
+Categories=Utility;Development;TextEditor;
+Keywords=Text;Editor;
+#+END_SRC
+
+这样我们就添加了一个名为 =Edit with Emacs= 的程序，同时在文件管理器中，就可以用这个程序打开文件了。并且可以为特定的后缀，比如 =.org= 文件，设置 *默认打开程序* 为 =Edit with Emacs= 。
+
+[[~/Dropbox/Write/blog/static/image/other/gif/linux-emacsclient-quick-open-file.gif]]
+
+
