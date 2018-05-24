@@ -1,9 +1,9 @@
 +++
 title = "怒江行记（四）——原始森林亚坪"
 date = 2018-05-06T11:11:00+08:00
-lastmod = 2018-05-06T11:17:03+08:00
+lastmod = 2018-05-24T15:36:33+08:00
 tags = ["旅行", "怒江", "在路上", "亚坪", "原始森林"]
-categories = ["在路上"]
+categories = ["在路上", "怒江行记"]
 draft = false
 +++
 
@@ -30,3 +30,8 @@ draft = false
   {{< figure src="/image/nujiang/03/04.jpg" >}}
   {{< figure src="/image/nujiang/03/05.jpg" >}}
 {{< /gallery >}}
+
+
+## 系列文章 {#系列文章}
+
+{{< series category="怒江行记" >}}

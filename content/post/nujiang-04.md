@@ -1,9 +1,9 @@
 +++
 title = "怒江行记（五）——探秘独龙江"
 date = 2018-05-09T15:25:00+08:00
-lastmod = 2018-05-09T15:25:22+08:00
+lastmod = 2018-05-24T15:36:35+08:00
 tags = ["旅行", "怒江", "在路上", "独龙江"]
-categories = ["在路上"]
+categories = ["在路上", "怒江行记"]
 draft = false
 +++
 
@@ -32,6 +32,11 @@ draft = false
   {{< figure src="/image/nujiang/04/03.jpg" >}}
   {{< figure src="/image/nujiang/04/06.jpg" >}}
 {{< /gallery >}}
+
+
+## 系列文章 {#系列文章}
+
+{{< series category="怒江行记" >}}
 
 [^fn:1]: [【CCTV纪录片】独龙族最后的纹面女【1080P】\_哔哩哔哩](https://www.bilibili.com/video/av5347071/)
 [^fn:2]: [云南独龙江景区暂停对外开放两年，封闭期间禁止游客入境\_澎湃新闻](https://www.thepaper.cn/newsDetail_forward_1804446)

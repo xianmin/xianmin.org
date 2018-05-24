@@ -1,13 +1,13 @@
 +++
 title = "怒江行记（三）——废城知子罗"
 date = 2018-05-03T11:28:00+08:00
-lastmod = 2018-05-03T16:49:12+08:00
+lastmod = 2018-05-24T15:36:31+08:00
 tags = ["旅行", "怒江", "在路上"]
-categories = ["在路上"]
+categories = ["在路上", "怒江行记"]
 draft = false
 +++
 
-{{<figure src="/image/nujiang/02/00.jpg">}}
+{{< figure src="/image/nujiang/02/00.jpg" >}}
 
 第二天到老姆登，这个地方是沿怒江北上的大部分游客都会停留的一个村子。
 
@@ -26,5 +26,10 @@ draft = false
   {{< figure src="/image/nujiang/02/04.jpg" caption="那个年代的房子" >}}
   {{< figure src="/image/nujiang/02/05.jpg" caption="扶贫工程" >}}
 {{< /gallery >}}
+
+
+## 系列文章 {#系列文章}
+
+{{< series category="怒江行记" >}}
 
 [^fn:1]: [尘封于1986：废弃之城知子罗](http://focus.news.163.com/10/1110/10/6L4FHEO000011SM9_all.html)

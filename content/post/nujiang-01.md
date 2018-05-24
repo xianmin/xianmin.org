@@ -1,9 +1,9 @@
 +++
 title = "怒江行记（二）——第一次走出国门"
 date = 2018-04-27T21:52:00+08:00
-lastmod = 2018-04-27T22:00:26+08:00
+lastmod = 2018-05-24T15:36:28+08:00
 tags = ["旅行", "怒江", "在路上", "出国", "片马"]
-categories = ["在路上"]
+categories = ["在路上", "怒江行记"]
 draft = false
 +++
 
@@ -20,3 +20,8 @@ draft = false
 {{< figure src="/image/nujiang/01/02.jpg" title="天空开了一道口子" >}}
 
 {{< figure src="/image/nujiang/01/01.jpg" title="缅甸国门" >}}
+
+
+## 系列文章 {#系列文章}
+
+{{< series category="怒江行记" >}}

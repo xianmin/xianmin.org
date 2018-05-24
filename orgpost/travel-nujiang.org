@@ -1,7 +1,8 @@
 #+HUGO_BASE_DIR: ../
 #+PROPERTY: header-args :eval no
+#+OPTIONS: author:nil
 
-* DONE 怒江行记（一）                                                           :@在路上:旅行:怒江:在路上:
+* DONE 怒江行记（一）——写在前面          :@在路上:@怒江行记:旅行:怒江:在路上:
   CLOSED: [2018-04-27 Fri 20:30]
   :PROPERTIES:
    :EXPORT_FILE_NAME: nujiang-00
@@ -55,8 +56,11 @@
 
 {{< figure src="/image/nujiang/00/06.jpg" title="怒江" >}}
 
+** 系列文章
+{{< series category="怒江行记" >}}
 
-* DONE 怒江行记（二）——第一次走出国门              :@在路上:旅行:怒江:在路上:出国:片马:
+
+* DONE 怒江行记（二）——第一次走出国门              :@在路上:@怒江行记:旅行:怒江:在路上:出国:片马:
   CLOSED: [2018-04-27 Fri 21:52]
   :PROPERTIES:
    :EXPORT_FILE_NAME: nujiang-01
@@ -75,8 +79,11 @@
 {{< figure src="/image/nujiang/01/02.jpg" title="天空开了一道口子" >}}
 
 {{< figure src="/image/nujiang/01/01.jpg" title="缅甸国门" >}}
+** 系列文章
+{{< series category="怒江行记" >}}
 
-* DONE 怒江行记（三）——废城知子罗                  :@在路上:旅行:怒江:在路上:
+
+* DONE 怒江行记（三）——废城知子罗                  :@在路上:@怒江行记:旅行:怒江:在路上:
   CLOSED: [2018-05-03 Thu 11:28]
   :PROPERTIES:
   :EXPORT_FILE_NAME: nujiang-02
@@ -106,8 +113,11 @@
   {{< figure src="/image/nujiang/02/05.jpg" caption="扶贫工程" >}}
 {{< /gallery >}}
 
+** 系列文章
+{{< series category="怒江行记" >}}
 
-* DONE 怒江行记（四）——原始森林亚坪  :@在路上:旅行:怒江:在路上:亚坪:原始森林:
+
+* DONE 怒江行记（四）——原始森林亚坪  :@在路上:@怒江行记:旅行:怒江:在路上:亚坪:原始森林:
   CLOSED: [2018-05-06 Sun 11:11]
    :PROPERTIES:
    :EXPORT_FILE_NAME: nujiang-03
@@ -137,8 +147,11 @@
   {{< figure src="/image/nujiang/03/05.jpg" >}}
 {{< /gallery >}}
 
+** 系列文章
+{{< series category="怒江行记" >}}
 
-* DONE 怒江行记（五）——探秘独龙江           :@在路上:旅行:怒江:在路上:独龙江:
+
+* DONE 怒江行记（五）——探秘独龙江           :@在路上:@怒江行记:旅行:怒江:在路上:独龙江:
   CLOSED: [2018-05-09 Wed 15:25]
   :PROPERTIES:
    :EXPORT_FILE_NAME:  nujiang-04
@@ -169,9 +182,12 @@
   {{< figure src="/image/nujiang/04/03.jpg" >}}
   {{< figure src="/image/nujiang/04/06.jpg" >}}
 {{< /gallery >}}
+** 系列文章
+{{< series category="怒江行记" >}}
 
 
-* DONE 怒江行记（六）——终点丙中洛           :@在路上:旅行:怒江:在路上:丙中洛:
+
+* DONE 怒江行记（六）——终点丙中洛           :@在路上:@怒江行记:旅行:怒江:在路上:丙中洛:
   CLOSED: [2018-05-12 Sat 09:58]
   :PROPERTIES:
   :EXPORT_FILE_NAME: nujiang-05
@@ -195,6 +211,9 @@
   {{< figure src="/image/nujiang/05/03.jpg" caption="露营" >}}
   {{< figure src="/image/nujiang/05/04.jpg" caption="经过的桥" >}}
 {{< /gallery >}}
+** 系列文章
+{{< series category="怒江行记" >}}
+
 
 * Footnotes
 

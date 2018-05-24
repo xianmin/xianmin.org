@@ -1,9 +1,9 @@
 +++
-title = "怒江行记（一）"
+title = "怒江行记（一）——写在前面"
 date = 2018-04-27T20:30:00+08:00
-lastmod = 2018-04-27T20:56:25+08:00
+lastmod = 2018-05-24T15:34:29+08:00
 tags = ["旅行", "怒江", "在路上"]
-categories = ["在路上"]
+categories = ["在路上", "怒江行记"]
 draft = false
 +++
 
@@ -52,5 +52,10 @@ draft = false
 {{< figure src="/image/nujiang/00/05.jpg" title="公路下的山谷" >}}
 
 {{< figure src="/image/nujiang/00/06.jpg" title="怒江" >}}
+
+
+## 系列文章 {#系列文章}
+
+{{< series category="怒江行记" >}}
 
 [^fn:1]: [六库镇\_百度百科](https://baike.baidu.com/item/%E5%85%AD%E5%BA%93%E9%95%87/6579854?fromtitle=%E5%85%AD%E5%BA%93&fromid=4635284)

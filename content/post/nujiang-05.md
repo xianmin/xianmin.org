@@ -1,9 +1,9 @@
 +++
 title = "怒江行记（六）——终点丙中洛"
 date = 2018-05-12T09:58:00+08:00
-lastmod = 2018-05-12T09:58:45+08:00
+lastmod = 2018-05-24T15:36:38+08:00
 tags = ["旅行", "怒江", "在路上", "丙中洛"]
-categories = ["在路上"]
+categories = ["在路上", "怒江行记"]
 draft = false
 +++
 
@@ -26,3 +26,8 @@ draft = false
   {{< figure src="/image/nujiang/05/03.jpg" caption="露营" >}}
   {{< figure src="/image/nujiang/05/04.jpg" caption="经过的桥" >}}
 {{< /gallery >}}
+
+
+## 系列文章 {#系列文章}
+
+{{< series category="怒江行记" >}}
