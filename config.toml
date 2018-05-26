@@ -104,9 +104,9 @@ pygmentsOptions = "linenos=table"
     fancyboxCss = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">'
 
   [params.reward]                                         # 文章打赏
-    enable = false
-    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
-    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
+    enable = true
+    wechat = "/reward_wechat.png"           # 微信二维码
+    alipay = "/reward_alipay.jpg"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
     a-email = "mailto:xianmin12@qq.com"
