@@ -1,7 +1,7 @@
 +++
 title = "为 hugo 站点插入豆瓣条目的 shortcode"
 date = 2018-05-25T15:20:00+08:00
-lastmod = 2018-05-25T17:20:54+08:00
+lastmod = 2018-07-20T17:27:54+08:00
 tags = ["hugo", "豆瓣"]
 categories = ["计算机"]
 draft = false
@@ -237,7 +237,7 @@ $(document).ready(function () {
 
 ## 使用方法 {#使用方法}
 
-```nil
+```code
 {{</* douban id */>}}
 ```
 

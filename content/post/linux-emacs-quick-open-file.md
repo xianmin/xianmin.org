@@ -1,7 +1,7 @@
 +++
 title = "linux 的文件管理器、命令行下，用 emacs 快速打开文件的方法"
 date = 2018-05-22T21:28:00+08:00
-lastmod = 2018-05-22T21:36:13+08:00
+lastmod = 2018-07-20T17:28:31+08:00
 tags = ["emacs", "linux", "tip"]
 categories = ["计算机"]
 draft = false
@@ -22,7 +22,7 @@ alias ec="emacsclient -nq"
 
 参数 `nq` 的含义是：
 
-```nil
+```code
 -n, --no-wait		Don't wait for the server to return
 -q, --quiet		Don't display messages on success
 ```
@@ -36,7 +36,7 @@ alias ec="emacsclient -nq"
 
 在 `~/.local/share/applications/` 目录下，添加一个 `emacs.desktop` 文件。编辑这个 `desktop` 文件：
 
-```nil
+```code
 [Desktop Entry]
 Version=1.0
 Name=Edit with Emacs
@@ -52,6 +52,6 @@ Keywords=Text;Editor;
 
 这样我们就添加了一个名为 `Edit with Emacs` 的程序，同时在文件管理器中，就可以用这个程序打开文件了。并且可以为特定的后缀，比如 `.org` 文件，设置 **默认打开程序** 为 `Edit with Emacs` 。
 
-{{<figure src="/image/other/gif/linux-emacsclient-quick-open-file.gif">}}
+{{< figure src="/image/other/gif/linux-emacsclient-quick-open-file.gif" >}}
 
 [^fn:1]: [Emacs Server - GNU Emacs Manual](https://www.gnu.org/software/emacs/manual/html_node/emacs/Emacs-Server.html)
