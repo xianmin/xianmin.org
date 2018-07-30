@@ -364,7 +364,7 @@ alias ec="emacsclient -nq"
 
 参数 =nq= 的含义是：
 
-#+BEGIN_SRC
+#+BEGIN_SRC code
 -n, --no-wait		Don't wait for the server to return
 -q, --quiet		Don't display messages on success
 #+END_SRC
@@ -376,7 +376,7 @@ alias ec="emacsclient -nq"
 
 在 =~/.local/share/applications/= 目录下，添加一个 =emacs.desktop= 文件。编辑这个 =desktop= 文件：
 
-#+BEGIN_SRC 
+#+BEGIN_SRC code
 [Desktop Entry]
 Version=1.0
 Name=Edit with Emacs
@@ -628,7 +628,7 @@ $(document).ready(function () {
 
 *** 使用方法
 
-#+BEGIN_SRC
+#+BEGIN_SRC code
 {{</* douban id */>}}
 #+END_SRC
 
@@ -656,3 +656,41 @@ $(document).ready(function () {
 
 可是挣钱这种事，有时候也不知道是否是命运安排。在青旅见多了形形色色的人，人生的大起大落，似乎也司空见惯了。最无可奈何的是，钱没挣着，身体先垮了。这是命吗？还是自己能掌控的呢？我不知道。我相信自强不息，可似乎有些事情冥冥之中又自有天意。做好自己能掌控的事儿，比如分内的工作、学习知识、锻炼身体。其余的还是听天由命吧！
 
+
+** DONE 更好的基于 github issues 的评论系统——utterances :@计算机:github:tip:blog:Hugo:
+   CLOSED: [2018-07-10 Tue 14:34]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: utterances-comment-system
+:END:
+
+*** 背景介绍
+ 基于 *github issues* 的评论系统，比较流行的有 [[https://github.com/imsun/gitment][gitment]] 和 [[https://github.com/gitalk/gitalk][gitalk]] 。这两个项目我很早就注意到了，它们明显的缺陷是，当用户如果尝试登录评论，所要求的权限是很多的，因此我也一直有所顾忌，不愿授权。不授权就无法评论了吗？还真不是。我在网上搜到了这篇文章——[[https://blog.wolfogre.com/posts/security-problem-of-gitment/][Gitment 的安全性争议 | 狼煞博客]]，文中提到：
+
+ #+BEGIN_QUOTE
+ 无论是在本博客还是在别的网站，如果评论系统用的是 Gitment，只要你不是百分百信任网站所有者，就尽量不要登录再留言。
+ #+END_QUOTE
+
+ 这个建议很好理解，稍微有点网络安全知识的人，通常都不会轻易把自己账户的各种操作权限交给一个素不相识的人。不过，此文作者还给出了一个“不登录直接留言”的操作方法，就是直接打开 issues 页面来评论。我这么讲，对于没用过基于 *github issues* 评论系统的读者而言，估计是一头雾水，这个按上面文章的方法操作一次，你就知道是怎么一回事儿了。
+
+
+*** 为什么使用 utterances ？
+ 以上简单讲了一下背景，下面介绍本篇文章的主角——[[https://github.com/utterance/utterances][utterances]]。
+
+ 它和 =gitment= 、 =gitalk= 有什么区别呢？
+
+最大的区别就是 =utterances= 所需要的权限要少得多，仅限于读写特定仓库的 issues 和 comments 。至于原理，我也没有深究，有兴趣的读者可以看一看项目作者写的说明：[[https://github.com/utterance/utterances/pull/25][utterances 1.0 by jdanyow · Pull Request #25]] 。并且，仅需要给 =utterances= 授权一次，其他凡是使用 =utterances= 的站点都不必再 *额外授权* ，直接就可以评论。
+
+ 第二个区别，部署更简单。按照文档的步骤： 
+
+1. 新建一个用于存放评论的仓库；
+2. 给这个仓库部署 =utterances= 应用；
+3. 将一段 *script* 代码放入你的博客。这样就可以了。
+
+
+ 第三个区别， =utterances= 有一个“机器人”可以自动初始化博文的 issues 评论。而 =gitment= 需要使用脚本，或者需要手动点击初始化按钮。（这个问题我是通过他人的文章了解到的，自己并没有测试考证。）
+
+ 综上， =utterances= 是一个相对而言 *更便捷* 的基于 *github issues* 的评论系统。
+
+想试用的朋友不妨在底部评论一下吧！ :-)
+
+另外，我已将 =utterances= 并入到博客主题 [[https://github.com/xianmin/hugo-theme-jane][hugo-theme-jane]] 中了。
