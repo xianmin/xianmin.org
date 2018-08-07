@@ -52,10 +52,10 @@ pygmentsOptions = "linenos=table"
   identifier = "about"
   url = "/about/"
 [[menu.main]]
-  name = "English"
-  weight = 100
-  identifier = "English"
-  url = "http://en.xianmin.org"
+  name = "订阅"
+  weight = 60
+  identifier = "feed"
+  url = "/index.xml"
 
 [params]
   since = "2017"            # Site creation time          # 站点建立时间
