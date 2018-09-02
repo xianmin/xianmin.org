@@ -113,6 +113,11 @@ pygmentsOptions = "linenos=table"
     wechat = "/reward_wechat.png"           # 微信二维码
     alipay = "/reward_alipay.jpg"           # 支付宝二维码
 
+  [params.counter.leancloud]  # Chinese leancloud visitor counter  # leancloud 计数器
+  enable = true
+  appId = "CI5I8j1EukaHvGfYTg7Jpl3J-gzGzoHsz"
+  appKey = "hsTbeRKvb1d22ppbvmV2zHii"
+
   [params.social]                                         # 社交链接
     a-email = "mailto:xianmin12@qq.com"
     # b-stack-overflow = "http://localhost:1313"
