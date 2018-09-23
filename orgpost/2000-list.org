@@ -1,0 +1,45 @@
+#+HUGO_BASE_DIR: ../
+#+SEQ_TODO: TODO DRAFT DONE
+#+PROPERTY: header-args :eval no
+#+OPTIONS: author:nil
+
+** DONE 我所使用的计算机软件                       :@计算机:linux:tool:list:
+   CLOSED: [2018-09-20 Sun 14:45]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: my-linux-app-list
+   :END:
+
+本篇文章将对 *我平时所使用的计算机软件做一个归纳整理* 。
+
+我大部分时候使用的操作系统是 *Deepin Linux* ，因此以下所列出的软件 *也许在 Windows 和 Mac 下并不适用* 。
+
+<!--more-->
+
+*** 主要使用的软件
+
+- [[https://www.deepin.org/original/deepin-boot-maker/][深度全家桶]] - 比如深度终端、深度截图、深度录屏、深度文件管理器等等，这些都是深度系统自带的，不必多说了。
+- [[https://www.gnu.org/software/emacs/][GNU Emacs]] / [[http://spacemacs.org/][Spacemacs]] - 是我日常用的最多的 *文本编辑器* 。 *配合 orgmode ，主要用来写日记、记笔记、发表博文等一系列文本操作。* 我尝试过用 Emacs 来写代码，但是代码补全、调试、阅读源码等等始终不如其他专门的 IDE 好用，配置也比较麻烦，就懒得折腾了。一直处于 *只是会用* 的阶段。最早使用 Emacs 应该是 2013 年，从各个地方抄配置，后来发现 Spacemacs 的配置比自己组合的要好太多，就使用 Spacemacs 了。
+- [[https://orgmode.org/][Org mode]] - Org mode 是 Emacs 的一部分，这也是我离不开 Emacs 的一个很大原因。
+- *Chrome 浏览器* - 深度自带。
+- *搜狗输入法* - 深度自带。
+- [[https://code.visualstudio.com/][Visual Studio Code]] - 代码编辑器。主要用来写代码、阅读代码。我写过一篇 [[http://www.xianmin.org/post/vscode/][一些 Visual Studio Code 的使用技巧]] 。
+- [[https://calibre-ebook.com/][calibre]] - 电子书管理工具。我写过一篇 [[http://www.xianmin.org/post/06-ebook/][构建你的移动书库——电子书阅读经验分享]] 。
+- [[https://www.wiz.cn/][为知笔记]] - 大部分时候是用来 *摘录网页内容* 。偶尔用手机记事。
+- [[https://www.dropbox.com/h][Dropbox]] - 文件同步备份。在 Linux 下支持的最好。
+- [[https://albertlauncher.github.io/][Albert]] - Linux 下的快捷启动工具。
+- [[https://hluk.github.io/CopyQ/][CopyQ]] - 剪切板管理工具。
+- [[https://www.smplayer.info/][SMPlayer]] - 多媒体播放器。
+- [[https://www.xnview.com/en/xnviewmp/][XnViewMP]] - 图片浏览器。速度快，并且可以进行一些简单的图片操作，比如图片压缩、图片格式转换、图片剪裁等等。
+- *Foxit Reader* - PDF 阅读器。
+- [[https://github.com/goldendict/goldendict][goldendict]] - 词典，翻译软件。功能强大，支持很多种格式的词典。
+- [[https://zealdocs.org/][Zeal]] - 离线 API 文档查找阅读工具。
+
+*** 偶尔使用的软件
+- Typora - markdown 编辑器。
+- WPS - 办公软件。
+- Sigil - ebook 制作工具。
+- Meld - 文件夹比对工具。
+- zotero - 文献管理工具。
+- Gparted - 分区工具。
+
+
