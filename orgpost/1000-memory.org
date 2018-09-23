@@ -55,6 +55,7 @@
 ** 一些照片
 
 {{< gallery >}}
+  {{< figure src="/image/memory/2018/0800.jpg" title="与喜咪一家合影" caption="" >}}
   {{< figure src="/image/memory/2018/0801.jpg" title="剃毛后的卡卡" caption="掉毛掉的厉害，干脆全剃了。咱乡下人都是自己动手，还弄了个简单的造型。" >}}
   {{< figure src="/image/memory/2018/0803.jpg" title="小光头" caption="H 把小光头带走了">}}
   {{< figure src="/image/memory/2018/0804.jpg" title="修剪爬藤" caption="大家一起干活儿">}}
