@@ -1171,3 +1171,37 @@ H 哥前些日子邀我年前到深圳小聚，我考虑了很久，这次还是
 - [[https://v.youku.com/v_show/id_XMzM4NTU3Njk0MA==.html?spm=a2h0k.11417342.soresults.dtitle][香港大学一行禅师讲座—教育—视频高清在线观看-优酷]]
 - [[https://v.youku.com/v_show/id_XMTQxMzIxOTg4OA==.html?spm=a2h0j.11185381.listitem_page1.5!79~A&&s=7c87f1ae8e6311e5b522][梁文道 第七十九夜 般若波罗蜜多心经（一）—综艺—视频高清在线观看-优酷]]
 
+
+
+* 计算机
+
+** TODO Linux 下，使用 Linuxbrew 安装更多的软件
+[[https://brew.sh/][Homebrew]] 是 MacOS 下的一个包管理工具，大部分使用 Mac 的开发者对它应该很熟悉了。[[http://linuxbrew.sh/#features][Linuxbrew]] 是 Linux 下的 Homebrew ，使用它，就可以用 =brew install= 安装更多的软件。也许有人要问，各个 Linux 发行版都已经 *自带了「包管理工具」* ，为什么还要多此一举，用 Linuxbrew 呢？
+
+*** 为什么用 Linuxbrew ？
+1. 将软件安装在用户目录下，无需使用 sudo 。
+2. 获取更多软件资源，安装最新版本的软件。
+3. 保持 linux 系统环境的整洁。
+
+*我举一个我最近使用的一个例子：*
+
+我要安装 [[https://yarnpkg.com/zh-Hans/][Yarn]] ，系统仓库的版本太低，如果 [[https://yarnpkg.com/zh-Hans/docs/install#debian-stable][按照官网的步骤安装]] ，则太过繁琐。而使用了 Linuxbrew ，只需要一条命令 =brew install yarn= ，就安装好了。
+
+*** Linuxbrew 的安装
+参照官网。
+
+1、 执行命令：
+
+#+BEGIN_SRC bash 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+#+END_SRC
+
+2、 添加 PATH 路径（比如我的，添加到 =.zprofile= 文件）：
+
+#+BEGIN_SRC bash
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
+#+END_SRC
+
+
