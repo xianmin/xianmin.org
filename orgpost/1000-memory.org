@@ -8,7 +8,7 @@
   {{< figure src="/image/memory/2018/" title="" caption="" >}}
 {{< /gallery >}}
 
-* DONE 记录： 2018 年 8 月 - 开始                           :@记录:反省:总结:
+* DONE 记录： 2018 年 8 月 - 开始                           :@记录:反思:总结:
   CLOSED: [2018-09-02 Sun 20:57]
   :PROPERTIES:
   :EXPORT_FILE_NAME: review-2018-08
@@ -71,7 +71,7 @@
 {{< /gallery >}}
 
 
-* DONE 记录： 2018 年 9 月 - 专注两个身份                   :@记录:反省:总结:
+* DONE 记录： 2018 年 9 月 - 专注两个身份                   :@记录:反思:总结:
   CLOSED: [2018-09-30 Sun 14:40]
   :PROPERTIES:
   :EXPORT_FILE_NAME: review-2018-09
@@ -164,7 +164,7 @@ Evan 这次来店里住了十多天。他现在在做松茸生意，有点起色
 {{< /gallery >}}
 
 
-* DONE 记录： 2018 年 10 月 - 音乐会                        :@记录:反省:总结:
+* DONE 记录： 2018 年 10 月 - 音乐会                        :@记录:反思:总结:
   CLOSED: [2018-10-31 Wed 15:15]
   :PROPERTIES:
   :EXPORT_FILE_NAME: review-2018-10
@@ -263,7 +263,7 @@ Evan 这次来店里住了十多天。他现在在做松茸生意，有点起色
 {{< /gallery >}}
 
 
-* DONE 记录： 2018 年 11 月 - 执行意图               :@记录:反省:总结:
+* DONE 记录： 2018 年 11 月 - 执行意图               :@记录:反思:总结:
   CLOSED: [2018-11-30 Fri 16:12]
   :PROPERTIES:
   :EXPORT_FILE_NAME: review-2018-11

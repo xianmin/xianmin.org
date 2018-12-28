@@ -1,4 +1,4 @@
-baseURL = "http://www.xianmin.org"
+baseURL = "https://www.xianmin.org"
 defaultContentLanguage = "zh-cn"
 title = "贤民的比特记忆"
 enableRobotsTXT = true
