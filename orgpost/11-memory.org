@@ -1,5 +1,5 @@
 #+HUGO_BASE_DIR: ../
-#+SEQ_TODO: TODO DRAFT DONE
+#+SEQ_TODO: TODO DONE
 #+PROPERTY: header-args :eval no
 #+OPTIONS: author:nil
 

@@ -1,4 +1,4 @@
-#+HUGO_BASE_DIR: ../
+#+HUGO_BASE_DIR: ../../
 #+TITLE: 我的 2018 年阅读总结
 #+DATE: 2018-12-28
 #+HUGO_AUTO_SET_LASTMOD: t

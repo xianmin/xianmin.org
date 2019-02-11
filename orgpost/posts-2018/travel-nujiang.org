@@ -1,4 +1,4 @@
-#+HUGO_BASE_DIR: ../
+#+HUGO_BASE_DIR: ../../
 #+PROPERTY: header-args :eval no
 #+OPTIONS: author:nil
 

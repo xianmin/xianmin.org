@@ -1,4 +1,4 @@
-#+HUGO_BASE_DIR: ../
+#+HUGO_BASE_DIR: ../../
 #+TITLE: 别了，2017！
 #+DATE: 2017-12-30
 #+HUGO_AUTO_SET_LASTMOD: t

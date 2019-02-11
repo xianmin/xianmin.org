@@ -1,4 +1,4 @@
-#+HUGO_BASE_DIR: ../
+#+HUGO_BASE_DIR: ../../
 #+TITLE: 捍卫开放的互联网
 #+DATE: 2018-08-21
 #+HUGO_AUTO_SET_LASTMOD: t
