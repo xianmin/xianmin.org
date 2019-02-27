@@ -649,8 +649,17 @@ sed -i s/”/」/g `grep -rl ” *`    # 替换后引号
 
 
 
-** TODO Linux 下，使用 Linuxbrew 安装更多的软件
-[[https://brew.sh/][Homebrew]] 是 MacOS 下的一个包管理工具，大部分使用 Mac 的开发者对它应该很熟悉了。[[http://linuxbrew.sh/#features][Linuxbrew]] 是 Linux 下的 Homebrew ，使用它，就可以用 =brew install= 安装更多的软件。也许有人要问，各个 Linux 发行版都已经 *自带了「包管理工具」* ，为什么还要多此一举，用 Linuxbrew 呢？
+** DONE Linux 下，使用 Linuxbrew 安装更多的软件 :@计算机:Linux:linuxbrew:工具:
+   CLOSED: [2019-02-27 Wed 08:00]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: use-linuxbrew
+   :END:
+
+[[https://brew.sh/][Homebrew]] 是 MacOS 下的一个包管理工具，可以用它安装各种软件，相当于 Linux 下的 =apt-get= ，大部分使用 Mac 的开发者对它应该很熟悉了。 [[http://linuxbrew.sh][Linuxbrew]] 是 Linux 下的 Homebrew ，使用它，就可以用 =brew install= 安装更多的软件。
+
+也许有人要问，各个 Linux 发行版都已经 *自带了「包管理工具」* ，为什么还要多此一举，用 Linuxbrew 呢？
+
+<!--more-->
 
 *** 为什么用 Linuxbrew ？
 1. 将软件安装在用户目录下，无需使用 sudo 。
@@ -661,8 +670,15 @@ sed -i s/”/」/g `grep -rl ” *`    # 替换后引号
 
 我要安装 [[https://yarnpkg.com/zh-Hans/][Yarn]] ，系统仓库的版本太低，如果 [[https://yarnpkg.com/zh-Hans/docs/install#debian-stable][按照官网的步骤安装]] ，则太过繁琐。而使用了 Linuxbrew ，只需要一条命令 =brew install yarn= ，就安装好了。
 
+*看一下我安装的其他工具：*
+
+#+BEGIN_SRC 
+% brew list
+bzip2  fd  fzf	hub  icu4c  ncurses  node  patchelf  pcre2  ripgrep  yarn  zlib
+#+END_SRC
+
 *** Linuxbrew 的安装
-参照官网。
+参见 [[http://linuxbrew.sh/][Linuxbrew官网]] 或 [[https://github.com/Linuxbrew/brew][Github 项目地址]] ：
 
 1、 执行命令：
 
@@ -679,3 +695,7 @@ export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 #+END_SRC
 
 
+*** 最新更新！
+*Linuxbrew has been merged into Homebrew!*
+
+有关最新的更新请查看 [[https://github.com/Linuxbrew/brew][Github 项目地址]] 。
