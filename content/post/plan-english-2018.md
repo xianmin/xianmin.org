@@ -1,7 +1,7 @@
 +++
 title = "英语学习方法总结 —— 2018 年 9 月"
 date = 2018-09-28T22:38:00+08:00
-lastmod = 2018-09-28T22:42:11+08:00
+lastmod = 2019-06-23T07:54:09+08:00
 tags = ["英语", "方法", "反思", "总结"]
 categories = ["计划"]
 draft = false
@@ -105,30 +105,3 @@ draft = false
 -   [Test Your Vocabulary](http://testyourvocab.com/) - 测试词汇量
 -   [The Lexile Framework for Reading - Lexile](https://lexile.com/) - 查询蓝思值
 -   [Linguee | Dictionary for German, French, Spanish, and more](https://www.linguee.com/) 例句查询，支持中文
-
-
-## 计划 - 截止至 2018 年年底 {#计划-截止至-2018-年年底}
-
-
-### <span class="org-todo todo TODO">TODO</span> 背「经济学人-词频 500 次以上」的单词 {#背-经济学人-词频-500-次以上-的单词}
-
-
-### <span class="org-todo todo TODO">TODO</span> 阅读《200个一定要学的英文词根词缀》 {#阅读-200个一定要学的英文词根词缀}
-
-
-### <span class="org-todo todo TODO">TODO</span> 阅读《英语词根与单词的说文解字》 {#阅读-英语词根与单词的说文解字}
-
-
-### <span class="org-todo todo TODO">TODO</span> 阅读《英语魔法师语法俱乐部》 {#阅读-英语魔法师语法俱乐部}
-
-
-### <span class="org-todo todo TODO">TODO</span> 阅读《Diary of a Wimpy Kid》 {#阅读-diary-of-a-wimpy-kid}
-
-
-### <span class="org-todo todo TODO">TODO</span> 阅读《To Kill a Mockingbird》 {#阅读-to-kill-a-mockingbird}
-
-
-### <span class="org-todo todo TODO">TODO</span> 阅读《The Adventures of Tom Sawyer》 {#阅读-the-adventures-of-tom-sawyer}
-
-
-### <span class="org-todo todo TODO">TODO</span> 开通英文博客 {#开通英文博客}
