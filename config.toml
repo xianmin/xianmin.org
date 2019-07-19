@@ -11,6 +11,7 @@ disqusShortname = "xianmin12"      # disqus_shortname
 googleAnalytics = "UA-34199129-1"      # UA-XXXXXXXX-X
 rssLimit = 20
 # copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
+enableGitInfo = true # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
 # Highlight options. See https://gohugo.io/content-management/syntax-highlighting/
 pygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
@@ -107,6 +108,15 @@ pygmentsOptions = "linenos=table"
     enable = true
     repo = "xianmin/comments---xianmin.org"    # The repo to store comments
     issueTerm = "pathname"
+
+  [params.search.google]    # google custom search, see https://cse.google.com
+    enable = true
+    id = "002186711602136249422:q1gkomof_em"
+    title = "Search"
+
+  [params.gitInfo]
+    gitRepo = "https://github.com/xianmin/xianmin.org"
+    showCommitMessage = true
 
   [params.reward]                                         # 文章打赏
     enable = true
