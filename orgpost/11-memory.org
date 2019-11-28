@@ -812,7 +812,8 @@ Github 地址： [[https://github.com/EveReader/EveReader][EveReader/EveReader: 
 {{< /gallery >}}
 
 
-* 记录： 2019 年 8 月 - Listen To This                      :@记录:反思:总结:
+* DONE 记录： 2019 年 8 月 - Listen To This                 :@记录:反思:总结:
+  CLOSED: [2019-09-30 Mon 15:01]
   :PROPERTIES:
   :EXPORT_FILE_NAME: review-2019-07
   :END:
@@ -859,4 +860,40 @@ Github 地址： [[https://github.com/EveReader/EveReader][EveReader/EveReader: 
   {{< figure src="/image/memory/2019/08/02.jpg" title="好看的菌子不能吃！" caption="" >}}
   {{< figure src="/image/memory/2019/08/03.jpg" title="铜绿菌" caption="" >}}
   {{< figure src="/image/memory/2019/08/04.jpg" title="还是铜绿菌" caption="" >}}
+{{< /gallery >}}
+
+
+
+* DONE 十月是登山的季节  :@记录:锻炼:登山:跑步:
+  CLOSED: [2019-11-29 Fri 06:55]
+  :PROPERTIES:
+  :EXPORT_FILE_NAME: review-2019-10
+  :END:
+
+{{< figure src="/image/memory/2019/10/00.jpg" title="" caption="" >}}
+
+有一段时间没在博客上发表内容了，每每想动笔写点什么的时候，琐事便纷至沓来，即便真的有点儿空闲了，又不知从何说起。 *近期最大的变化是，锻炼频繁了。* 爬了很多次山，也许比过去两年爬山的总次数还多。还有就是 *重新开始跑步* 。说起这个变化，就不得不提 Judith 了。
+
+<!--more-->
+
+
+Judith 是一位来自德国的科学家，名字的英文念作「朱蒂斯」，但是她更喜欢德文的念法——「尤蒂特」，这是我后来才知道的。她在玉龙雪山上研究植物，这几个月她多次下榻我们旅舍，我也得以与她相识。她不喜社交，热衷于工作，早出晚归，最初的俩月我们并没有多少交流。直至中秋，她的团队放假，她与我们共进晚餐，我们才有了更多的了解，算是老朋友了。她孤身一人来到中国，是她第一次到一个陌生的东方国度。
+
+相熟之后，她邀请我一起登山。我最初只是想熟悉一下登山线路，却也因此激发了我压抑许久的徒步热情。啊，似乎有一阵子没有爬山了。与她一起爬山，完全是另外一种体验，因为我只能勉强跟上她的步伐，要知道，我可是已经在云南生活好几年了。我问她，是如何拥有这么出色的体能？她说，长期坚持锻炼，她已经坚持了十多年，这是她生活的一部分。她同时还是一位越野跑爱好者，最长跑过 114 公里。不得不说我是无比讶异的，一位科研工作者，同时还是一位运动健将。联想到平日我对自己的懈怠，突然感到惭愧。同她一起上了几次雪山，从 2700 的海拔爬升至 4000 左右。顺便给她帮点小忙，荣幸的充当了几回「植物研究助理」，这对我而言，也是难得的体验。
+
+在这之后，受其影响，我重新找回了对户外运动的热情，在旅舍发起活动，每周六徒步登山，带了几次小团队，相当愉快。并且，我重新开始跑步，一股莫名的力量油然而生。这或许就是「目标感染力」的作用吧，当一个人在追逐一个目标的时候，它同时也会影响到旁人。
+
+（初稿完成于 2019 年 11 月 5 日凌晨 4 点。 11 月 29 日又是凌晨 4 点醒来，稍作修改，发至博客。一篇迟到的博文。）
+
+
+{{< gallery >}}
+  {{< figure src="/image/memory/2019/10/01.jpg" title="高山之巅" caption="" >}}
+  {{< figure src="/image/memory/2019/10/02.jpg" title="风雨欲来" caption="" >}}
+  {{< figure src="/image/memory/2019/10/03.jpg" title="高山上的牦牛" caption="" >}}
+  {{< figure src="/image/memory/2019/10/04.jpg" title="湖光山色" caption="" >}}
+  {{< figure src="/image/memory/2019/10/05.jpg" title="迎着朝阳奔跑" caption="" >}}
+  {{< figure src="/image/memory/2019/10/06.jpg" title="朝阳" caption="" >}}
+  {{< figure src="/image/memory/2019/10/07.jpg" title="上山捡松果" caption="" >}}
+  {{< figure src="/image/memory/2019/10/08.jpg" title="炫目的阳光" caption="" >}}
+  {{< figure src="/image/memory/2019/10/09.jpg" title="一次跑步记录" caption="" >}}
 {{< /gallery >}}
