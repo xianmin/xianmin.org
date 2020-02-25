@@ -126,7 +126,7 @@ console.log( bar.a ); // 输出 2
   - [[https://juejin.im/post/59f98a196fb9a045132a03ed][零起点的开源社区贡献指南 - 掘金]]
   - [[http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html][Commit message 和 Change log 编写指南 - 阮一峰的网络日志]]
   - [[https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow][git-flow 的工作流程]]
- 
+
  <!--more-->
 
 *** 加入开源项目可以做的事儿
@@ -157,7 +157,7 @@ console.log( bar.a ); // 输出 2
  - 用 =To my knowledge= 或者 =For me=
 
 *** commit 格式规范
- #+BEGIN_SRC 
+ #+BEGIN_SRC
  <type>(<scope>): <subject>
  // 空一行
  <body>
@@ -207,9 +207,9 @@ console.log( bar.a ); // 输出 2
 
 因为有用 =git= 管理 *子项目* 的需要，我在网上找到了 =submodule= 和 =subtree= 这两种方法。奇怪的是，有好几篇文章提到用 =subtree= 替代 =submodule= 。
 
-比如这两篇： 
+比如这两篇：
 
-- [[https://tech.youzan.com/git-subtree/][用 Git Subtree 在多个 Git 项目间双向同步子项目，附简明使用手册 - Delai - 有赞技术团队]] 
+- [[https://tech.youzan.com/git-subtree/][用 Git Subtree 在多个 Git 项目间双向同步子项目，附简明使用手册 - Delai - 有赞技术团队]]
 - [[https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree][Git subtree: the alternative to Git submodule]]
 
 这两个链接分别都出现在 Google 搜索中文和搜索英文时的首页上。因此，我最开始使用的是 subtree，以为 subtree 就是目前的主流方案，并且是 submodule 的替代方案。直到前些日子我改用了 submodule 才发现，submodule 才是真正我想用的。
@@ -546,7 +546,7 @@ $(document).ready(function () {
 
 最大的区别就是 =utterances= 所需要的权限要少得多，仅限于读写特定仓库的 issues 和 comments 。至于原理，我也没有深究，有兴趣的读者可以看一看项目作者写的说明：[[https://github.com/utterance/utterances/pull/25][utterances 1.0 by jdanyow · Pull Request #25]] 。并且，仅需要给 =utterances= 授权一次，其他凡是使用 =utterances= 的站点都不必再 *额外授权* ，直接就可以评论。
 
- 第二个区别，部署更简单。按照文档的步骤： 
+ 第二个区别，部署更简单。按照文档的步骤：
 
 1. 新建一个用于存放评论的仓库；
 2. 给这个仓库部署 =utterances= 应用；
@@ -672,7 +672,7 @@ sed -i s/”/」/g `grep -rl ” *`    # 替换后引号
 
 *看一下我安装的其他工具：*
 
-#+BEGIN_SRC 
+#+BEGIN_SRC
 % brew list
 bzip2  fd  fzf	hub  icu4c  ncurses  node  patchelf  pcre2  ripgrep  yarn  zlib
 #+END_SRC
@@ -682,7 +682,7 @@ bzip2  fd  fzf	hub  icu4c  ncurses  node  patchelf  pcre2  ripgrep  yarn  zlib
 
 1、 执行命令：
 
-#+BEGIN_SRC bash 
+#+BEGIN_SRC bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 #+END_SRC
 
@@ -699,3 +699,61 @@ export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 *Linuxbrew has been merged into Homebrew!*
 
 有关最新的更新请查看 [[https://github.com/Linuxbrew/brew][Github 项目地址]] 。
+
+** DONE Linux 下，用命令行给 PDF 添加书签    :@计算机:Linux:PDF:工具:命令行:
+   CLOSED: [2020-02-25 Tue 16:06]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: linux-pdftk
+   :END:
+最近下载了一个 300 多页 PDF 文件，居然没有书签，查阅太不方便了。如果用 PDF 软件一个一个添加，效率就太低了。上网找了用命令行工具来添加书签的办法，步骤如下：
+
+<!--more-->
+
+一、安装 pdftk ：
+
+#+begin_src bash
+apt install pdftk
+#+end_src
+
+二、导出 PDF 文件数据：
+
+#+begin_src bash
+pdftk my.pdf dump_data output data.txt
+#+end_src
+
+三、编辑数据文件 =data.txt= ，与书签有关的内容为：
+
+#+begin_example
+BookmarkBegin
+BookmarkTitle: -- Your Title 1 --
+BookmarkLevel: 1 #一级目录
+BookmarkPageNumber: 10 #页码
+BookmarkBegin
+BookmarkTitle: -- Your Title 2 --
+BookmarkLevel: 2 #二级目录
+BookmarkPageNumber: 20
+BookmarkBegin
+BookmarkTitle: -- Your Title 3 --
+BookmarkLevel: 1
+BookmarkPageNumber: 30
+...
+...
+and so on...
+#+end_example
+
+这个步骤比较关键。如果能够复制一份固定格式的目录内容，那么就很好处理了。
+
+四、将编辑好的数据文件导入并输出：
+
+#+begin_src bash
+pdftk my.pdf update_info data.txt output bookmarked.pdf
+#+end_src
+
+
+参考：[[https://stackoverflow.com/questions/30304718/create-bookmarks-into-a-pdf-file-via-command-line][Create bookmarks into a PDF file via command line - Stack Overflow]]
+
+*** 补充
+以上记录完成之后，发现一个用 python 的处理办法：
+[[https://github.com/dnxbjyj/py-project/tree/master/AddPDFBookmarks][py-project/AddPDFBookmarks at master · dnxbjyj/py-project]]
+
+下次可以考虑用 python 试一试。对于文件的批量处理，以及字符的操作，用 python 会更高效一些。
