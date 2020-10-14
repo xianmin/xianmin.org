@@ -2,6 +2,7 @@
 #+SEQ_TODO: TODO DONE
 #+PROPERTY: header-args :eval no
 #+OPTIONS: author:nil
+#+STARTUP: logdone
 
 
 * 2018
@@ -764,3 +765,17 @@ H 哥前些日子邀我年前到深圳小聚，我考虑了很久，这次还是
 Searx 的功能十分丰富，关于它更多的玩法，各位自行去挖掘吧。
 
 最后，再补充一个国内版本： [[https://mijisou.com/][秘迹搜索]] ，这个站点在国内是有备案的。
+
+** DONE 我参与配音的动画                         :@视频:视频:那里:丽江:动画:
+   CLOSED: [2020-10-14 Wed 23:42]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: 202010-boyan-video-luola
+   :END:
+
+薄言独立制作的一部科幻动画作品，我参与了其中的配音。
+
+B 站地址： [[https://www.bilibili.com/video/BV12T4y1c72D][【2020小宇宙新星计划】萝拉_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili]] 。
+
+<!--more-->
+
+{{< bilibili BV12T4y1c72D >}}
