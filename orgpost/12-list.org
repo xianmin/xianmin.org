@@ -29,10 +29,14 @@
 - [[https://albertlauncher.github.io/][Albert]] - Linux 下的快捷启动工具。
 - [[https://hluk.github.io/CopyQ/][CopyQ]] - 剪切板管理工具。
 - [[https://www.smplayer.info/][SMPlayer]] - 多媒体播放器。
-- [[https://www.xnview.com/en/xnviewmp/][XnViewMP]] - 图片浏览器。速度快，并且可以进行一些简单的图片操作，比如图片压缩、图片格式转换、图片剪裁等等。
 - *Foxit Reader* - PDF 阅读器。
 - [[https://github.com/goldendict/goldendict][goldendict]] - 词典，翻译软件。功能强大，支持很多种格式的词典。
 - [[https://zealdocs.org/][Zeal]] - 离线 API 文档查找阅读工具。
+- uget + aira2 - 下载工具。
+- nomacs - 图片浏览器。
+- recoll - epub 全文搜索。
+- qv2ray - 科学上网。
+
 
 *** 偶尔使用的软件
 - Typora - markdown 编辑器。
@@ -41,5 +45,11 @@
 - Meld - 文件夹比对工具。
 - zotero - 文献管理工具。
 - Gparted - 分区工具。
+- djview - djvu 文件浏览。
+- DB Browser for SQLite
+- Android Studio
+- Eclipse IDE
+- Texmaker
 
-
+*** 被取代的软件
+- [[https://www.xnview.com/en/xnviewmp/][XnViewMP]] - 图片浏览器。速度快，并且可以进行一些简单的图片操作，比如图片压缩、图片格式转换、图片剪裁等等。
