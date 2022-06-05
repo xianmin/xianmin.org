@@ -1,6 +1,6 @@
 baseURL = "https://www.xianmin.org"
 defaultContentLanguage = "zh-cn"
-title = "贤民的比特记忆"
+title = "贤民的博客"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -53,6 +53,11 @@ pygmentsOptions = "linenos=table"
   identifier = "about"
   url = "/about/"
 [[menu.main]]
+  name = "致谢"
+  weight = 50
+  identifier = "acknowledgments"
+  url = "/acknowledgments/"
+[[menu.main]]
   name = "订阅"
   weight = 60
   identifier = "feed"
@@ -62,14 +67,14 @@ pygmentsOptions = "linenos=table"
   since = "2017"            # Site creation time          # 站点建立时间
 
   # site info (option)                                    # 站点信息（可选）
-  logoTitle = "贤民的比特记忆"        # default: the title value    # 默认值: 上面设置的title值
+  logoTitle = "贤民的博客"        # default: the title value    # 默认值: 上面设置的title值
   keywords = ["linux", "emacs", "program", "journal", "贤民", "博客", "笔记"]
   description = "这里是我写字的地方"
   rssFullContent = true
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目
   archive-paginate = 1000
-  
+
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
 
@@ -121,28 +126,23 @@ pygmentsOptions = "linenos=table"
   [params.reward]                                         # 文章打赏
     enable = true
     wechat = "/reward_wechat.png"           # 微信二维码
-    alipay = "/reward_alipay.jpg"           # 支付宝二维码
-
-  [params.counter.leancloud]  # Chinese leancloud visitor counter  # leancloud 计数器
-  enable = true
-  appId = "CI5I8j1EukaHvGfYTg7Jpl3J-gzGzoHsz"
-  appKey = "hsTbeRKvb1d22ppbvmV2zHii"
+    # alipay = "/reward_alipay.jpg"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
     a-email = "mailto:xianmin12@qq.com"
     # b-stack-overflow = "http://localhost:1313"
-    c-twitter = "https://twitter.com/xian_min"
+    # c-twitter = "https://twitter.com/xian_min"
     # d-facebook = "http://localhost:1313"
     # e-linkedin = "http://localhost:1313"
     # f-google = "http://localhost:1313"
     g-github = "https://github.com/xianmin"
-    h-weibo = "https://weibo.com/xianmin12"
-    i-zhihu = "https://www.zhihu.com/people/xian-min"
-    j-douban = "https://www.douban.com/people/xianmin12/"
+    # h-weibo = "https://weibo.com/xianmin12"
+    # i-zhihu = "https://www.zhihu.com/people/xian-min"
+    # j-douban = "https://www.douban.com/people/xianmin12/"
     # k-pocket = "http://localhost:1313"
     # l-tumblr = "http://localhost:1313"
     # m-instagram = "http://localhost:1313"
-    p-coding = "https://coding.net/u/xianmin"
+    # p-coding = "https://coding.net/u/xianmin"
 
 
 # 将下面这段配置取消注释可以使 hugo 生成 .md 文件
