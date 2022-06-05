@@ -1,0 +1,17 @@
+{
+  "editor.fontSize": 22,
+  "editor.fontFamily": "微软雅黑, 思源黑体 Regular, Consolas, 'Courier New', monospace",
+  "editor.lineHeight": 1.682,
+  "editor.lineNumbers": "off",
+  "todo-tree.highlights.customHighlight": {
+    "[ ]": {
+        "background": "#ff000080"
+    },
+    "[x]": {
+        "background": "#00ff0080"
+    }
+},
+"git.enableSmartCommit": true,
+"git.postCommitCommand": "sync",
+"git.confirmSync": false
+}
