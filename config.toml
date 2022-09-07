@@ -13,12 +13,6 @@ rssLimit = 20
 # copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 enableGitInfo = true # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
-# Highlight options. See https://gohugo.io/content-management/syntax-highlighting/
-pygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
-pygmentsUseClasses = true # Use CSS classes to format highlighted code
-pygmentsCodefencesGuessSyntax = true
-pygmentsOptions = "linenos=table"
-
 [author]                  # require                       # 必需
   name = "贤民"
 
@@ -31,25 +25,25 @@ pygmentsOptions = "linenos=table"
   name = "主页"
   weight = 10
   identifier = "home"
-  url = "/"
+  pageref = "/"
 [[menu.main]]
   name = "全部文章"
   weight = 20
   identifier = "archives"
-  url = "/post/"
+  pageref = "/post/"
 [[menu.main]]
   name = "标签"
   weight = 30
   identifier = "tags"
-  url = "/tags/"
+  pageref = "/tags/"
 [[menu.main]]
   name = "分类"
   weight = 40
   identifier = "categories"
-  url = "/categories/"
+  pageref = "/categories/"
 [[menu.main]]
   name = "关于"
-  weight = 50
+  weight = 45
   identifier = "about"
   url = "/about/"
 [[menu.main]]
@@ -109,10 +103,20 @@ pygmentsOptions = "linenos=table"
     fancyboxJs = '<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>'
     fancyboxCss = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">'
 
-  [params.utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
+  [params.giscus]         # giscus is a comment system based on GitHub Discussions. see https://giscus.app
     enable = true
-    repo = "xianmin/comments---xianmin.org"    # The repo to store comments
-    issueTerm = "pathname"
+    repo = "xianmin/comments---xianmin.org"
+    repoId = "MDEwOlJlcG9zaXRvcnkxNDAyNTY2MDI="
+    category = "Announcements"
+    categoryId = "DIC_kwDOCFwlWs4CRRxW"
+    # mapping = "pathname"
+    # strict = 0
+    # reactionsEnabled = 1
+    # emitMetadata = 0
+    # inputPosition = "top"
+    # theme = "light"
+    lang = "zh-CN"
+    # lazyLoading = false
 
   [params.search.google]    # google custom search, see https://cse.google.com
     enable = true
@@ -166,3 +170,19 @@ pygmentsOptions = "linenos=table"
 # Configure the English version of the website.
 [Languages.zh-cn]
   languageCode = "zh-cn"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'friendly'
+    tabWidth = 4
