@@ -1,2 +1,5 @@
 public
 orgpost/0001-draft.org
+/resources/
+# Temporary lock file while building
+/.hugo_build.lock
