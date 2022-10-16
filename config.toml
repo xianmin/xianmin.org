@@ -15,6 +15,7 @@ enableGitInfo = true # use git commit log to generate lastmod record # 可根据
 
 [author]                  # require                       # 必需
   name = "贤民"
+  url = "/about"
 
 [sitemap]                 # require                       # 必需
   changefreq = "weekly"
