@@ -11,7 +11,7 @@ disqusShortname = "xianmin12"      # disqus_shortname
 googleAnalytics = "G-4SFSR6JRVT"      # UA-XXXXXXXX-X
 rssLimit = 20
 # copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
-enableGitInfo = true # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
+enableGitInfo = false # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 
 [author]                  # require                       # 必需
   name = "贤民"
